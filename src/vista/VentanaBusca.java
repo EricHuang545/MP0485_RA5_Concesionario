@@ -102,7 +102,7 @@ public class VentanaBusca extends javax.swing.JDialog {
         } else if (vehiculo == null) {
             JOptionPane.showMessageDialog(this, "La matricula no existe");
         } else {
-            JOptionPane.showConfirmDialog(this, vehiculo.infoVehiculo(), "Datos del vehiculo", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(this, vehiculo.infoVehiculo(), "Datos del vehiculo", javax.swing.JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
